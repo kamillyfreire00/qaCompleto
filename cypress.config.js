@@ -2,8 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
+    experimentalStudio: true,
     setupNodeEvents(on, config) {
-      experimentalStudio: true
+      // implement node event listeners here
     },
   },
 });
