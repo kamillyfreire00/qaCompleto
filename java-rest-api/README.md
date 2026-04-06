@@ -40,7 +40,6 @@ java-rest-api
 2. **Compilar o projeto:**
    Certifique-se de que o Maven esteja instalado e, em seguida, execute:
    ```
-   mvn clean install
    ```
 
 3. **Executar a aplicação:**
